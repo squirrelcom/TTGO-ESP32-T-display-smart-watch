@@ -808,7 +808,7 @@ void initDraw()
   tft.setTextColor(TFT_BLACK,back);
   tft.setFreeFont(&Orbitron_Bold_18);
   tft.setCursor(8,22);
-  tft.print("CASIO");
+  tft.print("Chip");
   tft.setFreeFont(&FreeMonoBold9pt7b);
   tft.drawString("CALCULATOR",8,72,2);
   tft.fillRoundRect(5,30,124,40,7,darkblue);
