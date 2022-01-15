@@ -718,9 +718,9 @@ void battery(){
 
 }
 void peripherals(){
+  bRt.loop();
+  bLe.loop();
   
-#include <TFT_eSPI.h> 
-#include <SPI.h>
 #include "7seg.h"
 #include "orbitron.h"
 
